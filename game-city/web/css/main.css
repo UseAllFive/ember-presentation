@@ -1,0 +1,84 @@
+/*-- Normalize: */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-size: 1em;
+}
+
+nav > a {
+    display: inline-block;
+    margin: 0.2em 0.4em;
+}
+nav > a:first-child {
+    margin-left: 0;
+}
+nav > a:last-child {
+    margin-right: 0;
+}
+
+/*-- Wrapper: */
+
+.language-nav {
+    display: inline-block;
+}
+
+.main-header > .app-logo-wrap {
+    float: left;
+}
+.main-header > nav {
+    float: right;
+}
+
+.main-header {
+    padding-bottom: 1em;
+}
+.main-footer {
+    padding-top: 1em;
+}
+
+/*-- Section: */
+
+.app > section {
+    border-top: 1px solid #ccc;
+}
+.app > section:last-of-type {
+    border-bottom: 1px solid #ccc;
+}
+section.game-browser,
+section.call-to-action {
+    position: relative;
+    height: 100%;
+}
+
+.call-to-action .game-form {
+    left: 50%;
+    min-width: 300px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.call-to-action .game-form > div {
+    margin-bottom: 1em;
+}
+.call-to-action label {
+    float: left;
+    width: 50px;
+}
+
+section.about {
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+}
+
+/*-- OOCSS: */
+
+.clearfix:before,
+.clearfix:after {
+    content: ' ';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
