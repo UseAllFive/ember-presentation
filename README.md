@@ -144,10 +144,7 @@ and less maintainability.
 
 ## Joga+1
 
-Use more web components:
-
-- x-location-autocomplete
-- x-sport-select
+See 'Game City' demo.
 
 ## Conclusion
 
