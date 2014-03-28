@@ -159,3 +159,7 @@ to migrate. Moreover, doing anything outside of the established conventions may
 not be straightforward. But, given we are fans of Symfony, it would make sense
 that if the project required it, we would also find Ember as useful.
 
+## Epilogue
+
+- [Discussion between framework creators about differences][https://gist.github.com/jashkenas/1732351].
+- [Proposed changes for 2014][http://emberjs.com/blog/2013/12/17/whats-coming-in-ember-in-2014.html].
