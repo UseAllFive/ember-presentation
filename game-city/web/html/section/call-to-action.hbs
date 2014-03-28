@@ -1,0 +1,16 @@
+<div class="loading-container">
+    <div class="loading-spinner"></div>
+</div>
+<div class="game-form">
+    <div class="game-title clearfix">
+        <label>Play</label>
+        {{title-select titles=titles selectedTitle=selectedTitle}}
+    </div>
+    <div class="game-location clearfix">
+        <label>Near</label>
+        {{places-autocomplete}}
+    </div>
+    <div class="form-controls">
+        <button type="button" class="create-button" {{action "findGame"}}>Find or Create</button>
+    </div>
+</div>

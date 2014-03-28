@@ -1,0 +1,20 @@
+<section id="app" class="app">
+
+    {{partial "header"}}
+
+    {{view "callToAction" tagName="section" class="call-to-action"}}
+
+    <section class="game-browser">
+        {{outlet "gameBrowserModal"}}
+        {{outlet "gameBrowserGames"}}
+    </section>
+
+    {{view "about" tagName="section" class="about"}}
+
+    {{partial "footer"}}
+
+    <div class="modals">
+        {{outlet "modal"}}
+    </div>
+
+</section>
